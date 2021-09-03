@@ -1,9 +1,3 @@
-
-<div>
-<p align="center">
-   <img src="./.github/42.png" alt="Github-Explorer" width="500"/>
-</p>
-</div>
 <p align="center">	
   <a href="https://www.linkedin.com/in/prafaelramalho/">
     <img alt="Paulo Rafael Ramalho" src="https://img.shields.io/badge/-Paulo Rafael-682998?style=flat&logo=Linkedin&logoColor=white" />
