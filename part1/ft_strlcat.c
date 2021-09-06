@@ -6,7 +6,7 @@
 /*   By: prafael- <prafael-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 14:42:36 by prafael-          #+#    #+#             */
-/*   Updated: 2021/09/03 13:19:11 by prafael-         ###   ########.fr       */
+/*   Updated: 2021/09/06 11:31:30 by prafael-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	{
 		while (src[i] != '\0' && d_len + i < size - 1)
 		{
-			st[d_len + i] = src[i];
+			dst[d_len + i] = src[i];
 			i++;
 		}
 	}
