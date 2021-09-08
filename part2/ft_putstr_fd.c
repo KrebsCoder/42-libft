@@ -1,27 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: prafael- <prafael-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/18 14:42:23 by prafael-          #+#    #+#             */
-/*   Updated: 2021/09/07 16:28:27 by prafael-         ###   ########.fr       */
+/*   Created: 2021/08/27 15:19:36 by prafael-          #+#    #+#             */
+/*   Updated: 2021/09/06 12:12:26 by prafael-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dst, const void *src, size_t len)
+void	ft_putstr_fd(char *s, int fd)
 {
-	unsigned char	*ptr_dest;
-	unsigned char	*ptr_src;
-
-	if ((!dst && !src) || !len)
-		return (dst);
-	ptr_dest = (unsigned char *)dst;
-	ptr_src = (unsigned char *)src;
-	while (len--)
-		*ptr_dest++ = *ptr_src++;
-	return (dst);
+	if (s)
+	{
+		while (*s)
+			write(fd, s++, 1);
+	}
 }
