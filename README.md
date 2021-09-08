@@ -134,28 +134,28 @@ The project
 - [`ft_calloc`](Part1/ft_calloc.c)	- allocates memory and sets its bytes' values to 0
 
 ### Non-standard functions
-- [`ft_substr`](Part2/ft_substr.c)	- returns a substring from a string
-- [`ft_strjoin`](Part2/ft_strjoin.c)	- concatenates two strings
-- [`ft_strtrim`](Part2/ft_strtrim.c)	- trims the beginning and end of string with specific set of chars
-- [`ft_split`](Part2/ft_split.c)	- splits a string using a char as parameter
-- [`ft_itoa`](Part2/ft_itoa.c)	- converts a number into a string
-- [`ft_strmapi`](Part2/ft_strmapi.c)	- applies a function to each character of a string
-- [`ft_striteri`](Part2/ft_striteri.c)	- applies a function to each character of a string
-- [`ft_putchar_fd`](Part2/ft_putchar_fd.c)	- output a char to a file descriptor
-- [`ft_putstr_fd`](Part2/ft_putstr_fd.c)	- output a string to a file descriptor
-- [`ft_putendl_fd`](Part2/ft_putendl_fd.c)	- output a string to a file descriptor, followed by a new line
-- [`ft_putnbr_fd`](Part2/ft_putnbr_fd.c)	- output a number to a file descriptor
+- [`ft_substr`](part2/ft_substr.c)	- returns a substring from a string
+- [`ft_strjoin`](part2/ft_strjoin.c)	- concatenates two strings
+- [`ft_strtrim`](part2/ft_strtrim.c)	- trims the beginning and end of string with specific set of chars
+- [`ft_split`](part2/ft_split.c)	- splits a string using a char as parameter
+- [`ft_itoa`](part2/ft_itoa.c)	- converts a number into a string
+- [`ft_strmapi`](part2/ft_strmapi.c)	- applies a function to each character of a string
+- [`ft_striteri`](part2/ft_striteri.c)	- applies a function to each character of a string
+- [`ft_putchar_fd`](part2/ft_putchar_fd.c)	- output a char to a file descriptor
+- [`ft_putstr_fd`](part2/ft_putstr_fd.c)	- output a string to a file descriptor
+- [`ft_putendl_fd`](part2/ft_putendl_fd.c)	- output a string to a file descriptor, followed by a new line
+- [`ft_putnbr_fd`](part2/ft_putnbr_fd.c)	- output a number to a file descriptor
 
 ### Linked list functions
 
-- [`ft_lstnew`](Bonus/ft_lstnew.c)	- creates a new list element
-- [`ft_lstadd_front`](Bonus/ft_lstadd_front.c)	- adds an element at the beginning of a list
-- [`ft_lstsize`](Bonus/ft_lstsize.c)	- counts the number of elements in a list
-- [`ft_lstlast`](Bonus/ft_lstlast.c)	- returns the last element of the list
-- [`ft_lstadd_back`](Bonus/ft_lstadd_back.c)	- adds an element at the end of a list
-- [`ft_lstclear`](Bonus/ft_lstclear.c)	- deletes and free list
-- [`ft_lstiter`](Bonus/ft_lstiter.c)	- applies a function to each element of a list
-- [`ft_lstmap`](Bonus/ft_lstmap.c)	- applies a function to each element of a list
+- [`ft_lstnew`](bonus/ft_lstnew.c)	- creates a new list element
+- [`ft_lstadd_front`](bonus/ft_lstadd_front.c)	- adds an element at the beginning of a list
+- [`ft_lstsize`](bonus/ft_lstsize.c)	- counts the number of elements in a list
+- [`ft_lstlast`](bonus/ft_lstlast.c)	- returns the last element of the list
+- [`ft_lstadd_back`](bonus/ft_lstadd_back.c)	- adds an element at the end of a list
+- [`ft_lstclear`](bonus/ft_lstclear.c)	- deletes and free list
+- [`ft_lstiter`](bonus/ft_lstiter.c)	- applies a function to each element of a list
+- [`ft_lstmap`](bonus/ft_lstmap.c)	- applies a function to each element of a list
 
 ---
 
