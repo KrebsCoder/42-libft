@@ -6,7 +6,7 @@
 /*   By: prafael- <prafael-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 14:42:18 by prafael-          #+#    #+#             */
-/*   Updated: 2021/09/07 15:35:13 by prafael-         ###   ########.fr       */
+/*   Updated: 2021/09/09 15:48:22 by prafael-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,3 @@ void	*ft_memchr(const void *string, int character, size_t len)
 	}
 	return (NULL);
 }
-		

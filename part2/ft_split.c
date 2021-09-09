@@ -6,14 +6,14 @@
 /*   By: prafael- <prafael-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/27 15:19:39 by prafael-          #+#    #+#             */
-/*   Updated: 2021/09/03 04:30:47 by prafael-         ###   ########.fr       */
+/*   Updated: 2021/09/09 17:12:45 by prafael-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 static void		ft_fill_matrix(char const *s, char c, size_t num, char **res);
-static size_t	CountN(char const *s, char c);
+static size_t	countn(char const *s, char c);
 
 char	**ft_split(char const *s, char c)
 {
@@ -23,7 +23,7 @@ char	**ft_split(char const *s, char c)
 	res = NULL;
 	if (!s)
 		return (NULL);
-	num = CountN(s, c);
+	num = countn(s, c);
 	res = (char **)malloc(sizeof(char *) * (num + 1));
 	if (!res)
 		return (NULL);
@@ -31,7 +31,7 @@ char	**ft_split(char const *s, char c)
 	return (res);
 }
 
-static size_t	CountN(char const *s, char c)
+static size_t	countn(char const *s, char c)
 {
 	size_t	count;
 	size_t	len;
@@ -62,19 +62,19 @@ static void	ft_fill_matrix(char const *s, char c, size_t num, char **res)
 {
 	size_t	count;
 	char	*start_str;
-	int		lenWord;
+	int		lenword;
 
 	count = 0;
 	start_str = (char *)s;
 	while (count < num)
 	{
-		lenWord = 0;
+		lenword = 0;
 		while (*start_str == c && *start_str != 0)
 			++start_str;
-		while (start_str[lenWord] != c && start_str[lenWord] != 0)
-			lenWord++;
-		res[count] = ft_substr(start_str, 0, lenWord);
-		start_str += lenWord;
+		while (start_str[lenword] != c && start_str[lenword] != 0)
+			lenword++;
+		res[count] = ft_substr(start_str, 0, lenword);
+		start_str += lenword;
 		count++;
 	}
 	res[count] = 0;
