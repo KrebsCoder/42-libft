@@ -6,7 +6,7 @@
 #    By: prafael- <prafael-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/16 21:36:25 by prafael-          #+#    #+#              #
-#    Updated: 2021/09/07 17:50:38 by prafael-         ###   ########.fr        #
+#    Updated: 2021/09/09 19:01:08 by prafael-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,19 +31,11 @@ $(NAME):$(OBJECTS) $(OBJECTS_BONUS)
 $(OBJECTS):$(SOURCES)
 	$(CC) $(CFLAGS) -c -I . $(SOURCES)
 
-$(SOURCES):
-	cp part1/ft_*.c .
-	cp part2/ft_*.c .
-
 bonus: $(OBJECTS_BONUS)
 	$(CC) $(CFLAGS) -c -I . $(SOURCES_BONUS)
 
-$(SOURCES_BONUS):
-	cp bonus/ft_*.c .
-
 clean:
 	rm -f $(OBJECTS) $(OBJECTS_BONUS)
-	rm -f $(SOURCES) $(SOURCES_BONUS)
 
 fclean: clean
 	rm -f $(NAME)
@@ -53,4 +45,3 @@ re: fclean all
 rebonus: fclean bonus
 
 .PHONY: all clean fclean re copy bonus rebonus
-

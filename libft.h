@@ -6,7 +6,7 @@
 /*   By: prafael- <prafael-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 20:14:15 by prafael-          #+#    #+#             */
-/*   Updated: 2021/09/08 16:28:48 by prafael-         ###   ########.fr       */
+/*   Updated: 2021/09/09 17:15:42 by prafael-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,9 +73,11 @@ int		ft_strlen(const char *s);
 /**
  * @brief function fills the first N bytes of the memory area pointed to by PTR
  * with the constant byte X.
- * @param	DEST pointer to the elements to be replaced.
- * @param	X character to be placed.
- * @param	N until the this bit.
+ * @param	B pointer to the elements to be replaced / Starting address
+ * of memory to be filled.
+ * @param	C character to be placed. / Value to be filled.
+ * @param	LEN until the this bit. / Number of bytes to be filled starting
+ * from b to be filled.
  * @return	the dest with the copy of src.
 */
 void	*ft_memset(void *b, int c, size_t len);
@@ -96,7 +98,7 @@ void	ft_bzero(void *str, size_t n);
  * @param	LEN until this bit.
  * @return	the dest with the copy of src.
 */
-void	*ft_memcpy(void *dst, const void *src, size_t len);
+void	*ft_memcpy(void *dest, const void *src, size_t n);
 
 /**
  * @brief Copy the SRC to DEST, it copies only until the N byte and then
@@ -405,4 +407,4 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
  */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
-# endif
+#endif
