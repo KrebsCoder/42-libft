@@ -21,8 +21,7 @@
 # 🔖 Index
 
 * [What is Libft?](#sparkles-what-is-libft)
-* [List of Functions](#clipboard-list-of-functions)
-* [The Project](#bookmark_tabs-the-project)
+* [List of Functions](#bookmark_tabs-list-of-functions)
 * [Technologies](#computer-technologies)
 
 ---
@@ -35,27 +34,7 @@ At 42 we're not allowed to use some standard libraries on our projects, so we ha
 
 ---
 
-# :clipboard: List of Functions
-
-### Part 1 - Libc functions
-
-<b>Some of the standard C functions.</b>
-
-> `isalpha.c` • `isdigit.c` • `isalnum.c` • `isascii.c` • `isprint.c` • `strlen.c` • `memset.c` • `bzero.c` • `memcpy.c` • `memmove.c` • `strlcpy.c` • `strlcat.c` • `toupper.c` • `tolower.c` • `strchr.c` • `strrchr.c` • `strncmp.c` • `memchr.c` • `memcmp.c` • `strnstr.c` • `atoi.c` • `calloc.c` • `strdup.c`
-
-### Part 2 - Additional functions
-<b>Functions 42 deems will be useful for later projects.</b>
-
-> `substr.c` • `strjoin.c` • `strtrim.c` • `split.c` • `itoa.c` • `strmapi.c` • `striteri.c` • `putchar_fd.c` • `putstr_fd.c` • `putendl_fd.c` • `putnbr_fd.c`
-
-### Bonus
-<b>Functions 42 deems will be useful for linked list manipulation.</b>
-
-> `lstnew.c` • `lstadd_front.c` • `lstsize.c` • `lstlast.c` • `lstadd_back.c` • `lstdelone.c` • `lstclear.c` • `lstiter.c` • `lstmap.c`
-
----
-
-# :bookmark_tabs: The Project
+# :bookmark_tabs: List of Functions
 
 ## Functions from `<ctype.h>`
 
