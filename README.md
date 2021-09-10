@@ -18,10 +18,10 @@
 
 # 🔖 Index
 
-* [What is Libft?](#sparkles_What-is-Libft?)
-* [List of Functions](#clipboard_List-of-Functions)
-* [The Project](#bookmark_tabs-The_Project)
-* [Technologies](#computer_Technologies)
+* [What is Libft?](#sparkles-what-is-libft)
+* [List of Functions](#clipboard-list-of-functions)
+* [The Project](#bookmark_tabs-the-project)
+* [Technologies](#computer-technologies)
 
 ---
 
