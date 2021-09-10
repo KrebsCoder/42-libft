@@ -101,3 +101,5 @@ This Project was made with:
 * [Makefile](https://www.gnu.org/software/make/manual/make.html)
 * [Shell](https://unixguide.readthedocs.io/en/latest/unixcheatsheet/)
 * [clang](https://clang.llvm.org/)
+
+---
