@@ -82,14 +82,14 @@ At 42 we're not allowed to use some standard libraries on our projects, so we ha
 
 ## Linked list functions
 
-- [x] [`ft_lstnew`](src/ft_lstnew.c)	- creates a new list element.
-- [x] [`ft_lstadd_front`](src/ft_lstadd_front.c)	- adds an element at the beginning of a list.
-- [x] [`ft_lstsize`](src/ft_lstsize.c)	- counts the number of elements in a list.
-- [x] [`ft_lstlast`](src/ft_lstlast.c)	- returns the last element of the list.
-- [x] [`ft_lstadd_back`](src/ft_lstadd_back.c)	- adds an element at the end of a list.
-- [x] [`ft_lstclear`](src/ft_lstclear.c)	- deletes and free list.
-- [x] [`ft_lstiter`](src/ft_lstiter.c)	- applies a function to each element of a list.
-- [x] [`ft_lstmap`](src/ft_lstmap.c)	- applies a function to each element of a list.
+- [ ] [`ft_lstnew`](src/ft_lstnew.c)	- creates a new list element.
+- [ ] [`ft_lstadd_front`](src/ft_lstadd_front.c)	- adds an element at the beginning of a list.
+- [ ] [`ft_lstsize`](src/ft_lstsize.c)	- counts the number of elements in a list.
+- [ ] [`ft_lstlast`](src/ft_lstlast.c)	- returns the last element of the list.
+- [ ] [`ft_lstadd_back`](src/ft_lstadd_back.c)	- adds an element at the end of a list.
+- [ ] [`ft_lstclear`](src/ft_lstclear.c)	- deletes and free list.
+- [ ] [`ft_lstiter`](src/ft_lstiter.c)	- applies a function to each element of a list.
+- [ ] [`ft_lstmap`](src/ft_lstmap.c)	- applies a function to each element of a list.
 
 ---
 
