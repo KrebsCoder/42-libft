@@ -21,6 +21,8 @@
   <a href="https://github.com/Yaten/42-get_next_line">
     <img src="https://github.com/Yaten/Yaten/blob/main/img/libft.png" alt="Libft 115/100">
   </a>
+    <br>
+  115/100
 </p>
 
 ---
