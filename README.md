@@ -1,4 +1,3 @@
-<img src="https://img.shields.io/badge/42.sp-Libft-682998?logo="></img>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/prafaelramalho/">
@@ -15,6 +14,12 @@
 
   <a href="https://github.com/Yaten/libft/commits/main">
     <img src="https://img.shields.io/github/last-commit/Yaten/libft?color=682998">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yaten/42-get_next_line">
+    <img src="https://github.com/Yaten/Yaten/blob/main/img/libft.png" alt="Libft 115/100">
   </a>
 </p>
 
