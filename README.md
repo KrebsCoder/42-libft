@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/42.sp-Libft-682998?logo="></img>
   </a>
 
-  <a href="https://github.com/Yaten/N/stargazers">
+  <a href="https://github.com/Yaten/42-libft/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/Yaten/42-libft?color=682998&logo=github">
   </a>
 
