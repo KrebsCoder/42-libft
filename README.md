@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/42.sp-Libft-682998?logo="></img>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/prafaelramalho/">
     <img alt="Paulo Rafael Ramalho" src="https://img.shields.io/badge/-Paulo Rafael-682998?style=flat&logo=Linkedin&logoColor=white" />
@@ -8,7 +10,7 @@
   </a>
 
   <a href="https://github.com/Yaten/N/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Yaten/Libft?color=682998&logo=github">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Yaten/42-libft?color=682998&logo=github">
   </a>
 
   <a href="https://github.com/Yaten/libft/commits/main">
